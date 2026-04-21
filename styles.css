@@ -1,0 +1,111 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f3;
+    text-align: center;
+}
+header {
+    background: linear-gradient(90deg, #d38723, #00ffff);
+    color: white;
+    padding: 30px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+nav {
+    background: #ef7a43;
+    padding: 15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+section {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+#schedule {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+th {
+    background-color: #0073e6;
+    color: white;
+}
+#contact {
+    background: #e6f7ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contact input, #contact textarea {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+#contact button {
+    margin-top: 15px;
+    background: #0073e6;
+}
+#contact button:hover {
+    background: #005bb5;
+}
+button {
+    background: #28a745;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background 0.3s ease-in-out;
+}
+button:hover {
+    background: #218838;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+.hidden {
+    display: none;
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
